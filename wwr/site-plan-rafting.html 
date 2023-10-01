@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Site Plan</title>
+  <link type="text/css" rel="stylesheet" href="styles/site-plan-rafting.css" />
+</head>
+
+<body>
+  <header style="background-color: rgb(241, 213, 179);">
+    <h1 style="text-align:center; font-family:fantasy;">Rollen' on the river Site Plan</h1>
+    <h2 style="text-align:center; font-family:cursive;">Evangelis Q. Albesa</h2>
+    <h2 style="text-align:center;">WDD 130-B8</h2>
+    <!-- In the header above, add the name of your site, your name and class number. For example if you are in section 3 you would put WDD 130-03 -->
+  </header>
+  <main>
+    <!-- ------------------------Steps 2-5------------------------------ -->
+    <hr>
+    <h2 style="text-align:center; color:#9f704f">Overview</h2>
+    <h3 style="text-align:center; color:#9f704f">Purpose</h3>
+    <p style="font-size:larger;color:maroon">
+      They have always been interesting to people, either to explore or to use them. Most parts of rivers, usually the
+      most beautiful parts, are hard to reach on land. Rafting allows you to enter these special places. Imagine dens
+      forests, nature, great views and much more.The objective is to navigate downstream rivers rapids using an
+      inflated raft. It'sconsidered an extreme sport which is highly challenging and risky
+      and requires a lot of technical skills and teamwork. The races are conducted on
+      river courses. Usually, sprint and slalom events are conducted for rafting.
+      Adrenaline rushes allow rafters to focus only on the excitement they feel rather
+      thanthe physical exercise of rafting. Reduces stress. Rafting provides you an escape
+      from reality. The quietness of nature lets you relax and leave all your worries
+      behind you, especially when the river is slow-moving.</p>
+    <!--Adrenaline rushes allow rafters to focus only on the excitement they feel rather than the physical exercise of rafting. Reduces stress – Rafting provides you an escape from reality. The quietness of nature lets you relax and leave all your worries behind you, especially when the river is slow-moving. change this -->
+
+    <h3 style="text-align:center; color:#9f704f">Audience</h3>
+    <p style="font-size:larger;color:maroon;">
+      Power of the moving water is incredible. Mastering the rapids will definitely get your heart pumping but it will
+      also fill you with filling of joy
+      and triumph. It is important to choose the right rafting trip according your
+      fitness and experiance. Rafting is a highly dynamic activity that is always unique. When
+      people hear about whitewater rafting they mostly imagine powerful rapids, dangerous
+      environment and rush. Rafting can most certainly be all of that,but it can also be
+      much more.</p>
+    <!-- change this -->
+    <div style="text-align:center;">
+      <img
+        src="https://scontent.fyvr4-1.fna.fbcdn.net/v/t39.30808-6/380160884_10211267090709796_5116810771843639065_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5614bc&_nc_ohc=naUTv51QLUYAX8rkph5&_nc_ht=scontent.fyvr4-1.fna&oh=00_AfBJ5y5nAJrNe28Mp0aL63UPQlX7h5wzN994KoiCnowpcw&oe=651C2E0B"
+        width="900" hight="500">
+    </div>
+    <hr />
+
+    <body style="background-color:beige;">
+      <h2 style="text-align:center; color:coral; background-color:antiquewhite;font-family:fantasy;">Branding</h2>
+      <h3 style="text-align:center; color:coral; background-color:antiquewhite;font-family:fantasy;">Website Logo</h3>
+      <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
+      <div style="text-align:center;">
+        <img
+          src="https://scontent.fyvr4-1.fna.fbcdn.net/v/t39.30808-6/380416358_10211267249393763_2665180433314573779_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5614bc&_nc_ohc=p3W77NEvFMgAX8z6JaG&_nc_ht=scontent.fyvr4-1.fna&oh=00_AfCjQ46KZtFUqij5zk7aKL52xPVuurOnN5kNAps71ny5FA&oe=650F0994"
+          height="100" widht="100" />
+    </body>
+    <hr />
+    <h2 style="color:coral;font-family:cursive;font-size:xx-large">Style Guide</h2>
+    <!-- ------------------------Steps 6-9------------------------------ -->
+
+    <h3 style="color:coral;font-family:cursive;font-size:xx-large">Color Palette</h3>
+    <!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in Canvas then return and replace the color codes below with the hex color codes (the 6 digit numbers that show at the bottom of each color) for the colors you have chosen below.  You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
+
+    <!-- Copy and paste the URL to your finished palette below. Replace the href value that is there with yours. Make sure to paste it into both the href value and the content text of the <a> tag -->
+    <p style=>Palette URL:</p>
+    <a href="https://coolors.co/fc9f5b-fbd1a2-ece4b7-7dcfb6">
+      target="https://coolors.co/fc9f5b-fbd1a2-ece4b7-7dcfb6"</a>
+    <table class="color" style=background-color:burlywood; width="100%">
+      <tr>
+        <th>Primary</th>
+        <th>Secondary</th>
+        <th>Accent 1</th>
+        <th>Accent 2</th>
+      </tr>
+      <!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
+      <tr>
+        <td class="primary" style="background-color:#fc9f5b">[#fc9f5b]</td>
+        <td class="secondary" style="background-color:#fbd1a2">[#fbd1a2]</td>
+        <td class="accent1" style="background-color:#ece4b7">[#ece4b7]</td>
+        <td class="accent2" style="background-color:#7dcfb6">[#7dcfb6]</td>
+      </tr>
+    </table>
+
+    <!-- ------------------------Steps 10-12------------------------------ -->
+
+    <h3 style="font-family:snell roundhand;color:green;">Typography</h3>
+    <!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Think also about which of your colors above you might use for background and font colors. -->
+
+    <h4 style="font-family: snell roundhand;color:green">
+      Heading Font: snell rounhand
+      <!-- change this -->
+    </h4>
+    <h4 style="font-family:snell roundhand;color:green;">
+      Paragraph Font: snell roundhand
+      <!-- change this -->
+    </h4>
+    <h3 style="font-family:snell roundhand; color:green">Normal paragraph example</h3>
+
+    <p style="font-size:larger;color:maroon; text-align:left;">
+      The best Whitew ater Rafting in Colorado, White Water Rafting Company
+      offers rafting on the Colorado and Roaring Fork Rivers in Glenwood
+      Springs. Since 1974, we have been family owned and operated, rafting
+      the Shoshone section of Glenwood Canyon and beyond.</p>
+    <h3 style="color:#6b400b;font-family:fantasy;">Colored paragraph example</h3>
+    <p style="font-size:larger;color:maroon; background-color:burlywood; text-align:left;">
+      Trips vary from mild and great for families, to trips exclusively for
+      physically fit and experienced rafters. No matter what type of river
+      adventures you are seeking, White Water Rafting Company can make it happen for you.</p>
+
+    <!-- ------------------------Step 13------------------------------ -->
+
+    <h3 style="font-family:fantasy;color:maroon">Navigation</h3>
+    <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. -->
+    <nav style="background-color:blanchedalmond;font-size:25px;">
+      <a href="#">Home</a>
+      <a href="#">Page2</a>
+      <a href="#" style="background-color:cadetblue;">Contact Us</a>
+    </nav>
+    <hr />
+    <h2 style="font-family:fantasy;color:maroon">Site Map</h2>
+    <div class="sitemap" style="background-color:blanchedalmond">
+      <div class="sm-home">Home</div>
+      <div class="sm-page2">
+        [Page2]
+        <!-- this page will have a name later -->
+      </div>
+      <div class="sm-page3">Contact Us</div>
+
+      <div class="top">&nbsp;</div>
+      <div class="left">&nbsp;</div>
+      <div class="right">&nbsp;</div>
+    </div>
+    <hr />
+    <h2 style="color:chocolate">Wireframes</h2>
+    <!-- Create an additional wireframe for your site. List it here below the Home page wireframe. -->
+
+    <h3 style="color:chocolate">Home</h3>
+
+    <img src="https://byui-wdd.github.io/wdd130/rafting_images/wireframe_home.png" alt="home page wireframe" />
+
+    <h3>[Page 2]</h3>
+
+    <!-- <img src="#" alt="page 2 wireframe"> -->
+  </main>
+</body>
+
+</html>
