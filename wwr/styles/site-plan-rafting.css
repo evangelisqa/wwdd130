@@ -43,7 +43,7 @@ body {
 }
 
 img {
-  display: block;
+  display:contents;
   margin: 0 auto;
   max-width: 300px;
   background-image: green;
