@@ -16,3 +16,27 @@ main section{
 #background{
     height: 725px;
 }
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color:aqua;
+}
+nav a:hover{
+    background-color:darkcyan
+}
+.book, .join{
+    background-color: chocolate;
+}
+.book:hover, .join:hover{
+    background-color: brown;
+}
+#background{
+    background-color:bisque;
+}
+.msg{
+    background-color: darkkhaki;
+}
+footer{
+    background-color: chocolate;
+}
