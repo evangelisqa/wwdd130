@@ -40,3 +40,53 @@ nav a:hover{
 footer{
     background-color: chocolate;
 }
+nav a{
+    background-color: antiquewhite;
+    color:darkblue;
+}
+nav a:hover{
+    background-color:cornsilk;
+    color:darkblue;
+}
+.home-title{
+    background-color: blanchedalmond;
+    color:darkblue;
+}
+h4{
+    background-color: antiquewhite;
+    color:darkblue;
+}
+.book, .join{
+    background-color: antiquewhite;
+    color:darkblue;
+}
+.book:hover, .join:hover{
+    background-color: ghostwhite;
+    color: darkblue;
+}
+.msg h2{
+    background-color: antiquewhite;
+    color: darkblue;
+}
+.msg p{
+    background-color: beige;
+    color:darkblue;
+}
+footer{
+    background-color: cornsilk;
+    color: darkblue;
+}
+footer a{
+    background-color: antiquewhite;
+    color: darkblue;
+}
+footer a:hover{
+    background-color: antiquewhite;
+    color: darkblue;
+}
+.icon{
+    width:80px
+}
+.logo{
+    width: 80px;
+}
