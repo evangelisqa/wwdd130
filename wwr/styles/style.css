@@ -1,113 +1,150 @@
-#content{
-    margin:0 auto;
+#content {
+    margin: 0 auto;
 }
-nav a{
-    text-align:center;
+
+nav a {
+    text-align: center;
 }
-#hero-msg h1, #hero-msg h4{
-    text-align:center;
+
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
 }
-.button-box{
-    text-align:center;
+
+.button-box {
+    text-align: center;
 }
-main section{
-    text-align:center;
+
+main section {
+    text-align: center;
 }
-#background{
+
+#background {
     height: 725px;
 }
-body{
+
+body {
     background-color: antiquewhite;
 }
-header{
-    background-color:aqua;
+
+header {
+    background-color: aqua;
 }
-nav a:hover{
-    background-color:antiquewhite
+
+nav a:hover {
+    background-color: antiquewhite
 }
-.book, .join{
+
+.book,
+.join {
     background-color: chocolate;
 }
-.book:hover, .join:hover{
+
+.book:hover,
+.join:hover {
     background-color: brown;
 }
-#background{
-    background-color:bisque;
+
+#background {
+    background-color: bisque;
 }
-.msg{
+
+.msg {
     background-color: darkkhaki;
 }
-footer{
+
+footer {
     background-color: chocolate;
 }
-nav a{
-    background-color: antiquewhite;
-    color:darkblue;
-}
-nav a:hover{
-    background-color:cornsilk;
-    color:darkblue;
-}
-.home-title{
-    background-color: blanchedalmond;
-    color:darkblue;
-}
-h4{
-    background-color: antiquewhite;
-    color:darkblue;
-}
-.book, .join{
-    background-color: antiquewhite;
-    color:darkblue;
-}
-.book:hover, .join:hover{
-    background-color: ghostwhite;
-    color: darkblue;
-}
-.msg h2{
+
+nav a {
     background-color: antiquewhite;
     color: darkblue;
 }
-.msg p{
-    background-color: beige;
-    color:darkblue;
-}
-footer{
+
+nav a:hover {
     background-color: cornsilk;
     color: darkblue;
 }
-footer a{
+
+.home-title {
+    background-color: blanchedalmond;
+    color: darkblue;
+}
+
+h4 {
     background-color: antiquewhite;
     color: darkblue;
 }
-footer a:hover{
+
+.book,
+.join {
     background-color: antiquewhite;
     color: darkblue;
 }
-.icon{
-    width:80px
+
+.book:hover,
+.join:hover {
+    background-color: ghostwhite;
+    color: darkblue;
 }
-.logo{
+
+.msg h2 {
+    background-color: antiquewhite;
+    color: darkblue;
+}
+
+.msg p {
+    background-color: beige;
+    color: darkblue;
+}
+
+footer {
+    background-color: cornsilk;
+    color: darkblue;
+}
+
+footer a {
+    background-color: antiquewhite;
+    color: darkblue;
+}
+
+footer a:hover {
+    background-color: antiquewhite;
+    color: darkblue;
+}
+
+.icon {
+    width: 80px
+}
+
+.logo {
     width: 80px;
 }
-nav a{
-    text-align:center;
-    color:chocolate;
-    text-decoration: none;
-}
-.book, .join{
+
+nav a {
     text-align: center;
-    color:antiquewhite;
+    color: chocolate;
     text-decoration: none;
 }
-footer a{
-    text-align:left;
+
+.book,
+.join {
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+footer a {
+    text-align: left;
     color: darkblue;
     text-decoration: none;
 }
+
 footer p {
     font-size: 1.2em;
 }
-footer p a:hover{
-    text-decoration:underline;
+
+footer p a:hover {
+    text-decoration: underline;
 }
