@@ -1,0 +1,9 @@
+#background{
+    color:antiquewhite;}
+footer p a:hover{
+    text-decoration:underline;
+    font-size:1.2em; background-color:antiquewhite;
+}
+header{
+    color:antiquewhite;
+}
