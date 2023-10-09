@@ -53,7 +53,7 @@ footer {
 }
 
 nav a {
-    background-color:antiquewhite;
+    background-color: darksalmon;
     color: black;
 }
 
@@ -68,19 +68,19 @@ nav a:hover {
 }
 
 h4 {
-    background-color: antiquewhite;
+    background-color: darksalmon;
     color: black;
 }
 
 .book,
 .join {
-    background-color: antiquewhite;
+    background-color: darksalmon;
     color: black;
 }
 
 .book:hover,
 .join:hover {
-    background-color: ghostwhite;
+    background-color: darksalmon;
     color: black;
 }
 
