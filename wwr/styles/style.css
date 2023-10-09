@@ -46,7 +46,7 @@ nav a:hover {
 }
 
 #background {
-    background-color: bisque;
+    background-color: darksalmon;
 }
 
 .msg {
@@ -59,34 +59,34 @@ footer {
 
 nav a {
     background-color: antiquewhite;
-    color: darkblue;
+    color: black;
 }
 
 nav a:hover {
     background-color: cornsilk;
-    color: darkblue;
+    color: black;
 }
 
 .home-title {
     background-color: blanchedalmond;
-    color: darkblue;
+    color: black;
 }
 
 h4 {
     background-color: antiquewhite;
-    color: darkblue;
+    color: black;
 }
 
 .book,
 .join {
     background-color: antiquewhite;
-    color: darkblue;
+    color: black;
 }
 
 .book:hover,
 .join:hover {
     background-color: ghostwhite;
-    color: darkblue;
+    color: black;
 }
 
 .msg h2 {
