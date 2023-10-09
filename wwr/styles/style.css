@@ -139,12 +139,15 @@ footer a {
     text-align: left;
     color: darkblue;
     text-decoration: none;
+    background-color:palegreen;
 }
 
 footer p {
     font-size: 1.2em;
+    background-color:palegreen;
 }
 
 footer p a:hover {
     text-decoration: underline;
+    background-color:palegreen;
 }
