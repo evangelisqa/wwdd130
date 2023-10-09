@@ -100,17 +100,17 @@ h4 {
 }
 
 footer {
-    background-color:antiquewhite;
+    background-color:palegreen;
     color: darkblue;
 }
 
 footer a {
-    background-color: antiquewhite;
+    background-color:palegreen;
     color: darkblue;
 }
 
 footer a:hover {
-    background-color: antiquewhite;
+    background-color:palegreen;
     color: darkblue;
 }
 
