@@ -42,33 +42,32 @@ nav a:hover {
 
 .book:hover,
 .join:hover {
-    background-color: brown;
+    background-color:brown;
 }
 
 #background {
     background-color:bisque;
 }
-
 .msg {
-    background-color: darksalmon;
+    background-color:darksalmon;
 }
 
 footer {
-    background-color: darksalmon;
+    background-color:darksalmon;
 }
 
 nav a {
-    background-color: antiquewhite;
+    background-color:antiquewhite;
     color: black;
 }
 
 nav a:hover {
-    background-color: cornsilk;
+    background-color:cornsilk;
     color: black;
 }
 
 .home-title {
-    background-color: blanchedalmond;
+    background-color:blanchedalmond;
     color: black;
 }
 
