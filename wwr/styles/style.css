@@ -28,6 +28,10 @@ main section {
 
 body {
     background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin:0;
+    padding:0;
 }
 
 header {
@@ -153,4 +157,5 @@ footer p a:hover {
     text-decoration: underline;
     background-color:darksalmon;
 }
+
 
