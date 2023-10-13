@@ -180,5 +180,11 @@ footer .social img{
 .rapids-card{
     margin:200px 0;
 }
+.card-img{
+    border:10px solid #d9c2a3
+}
+main section img{
+    box-sizing: border-box;
+}
 
 
