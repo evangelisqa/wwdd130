@@ -157,5 +157,8 @@ footer p a:hover {
     text-decoration: underline;
     background-color:darksalmon;
 }
+h2{
+    margin: 0;
+}
 
 
