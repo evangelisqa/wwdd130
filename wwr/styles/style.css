@@ -67,6 +67,8 @@ nav a:hover {
 .home-title {
     background-color:blanchedalmond;
     color: black;
+    font-family: fantasy;
+    font-size: 2em;
 }
 
 h4 {
@@ -87,6 +89,8 @@ h4 {
 .msg p {
     background-color:darksalmon;
     color: black;
+    font-family: sans-serif;
+    font-size: 2em;
 }
 
 footer {
