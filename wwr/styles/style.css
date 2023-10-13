@@ -53,6 +53,7 @@ nav a:hover {
 .msg {
     background-color:darksalmon;
     line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
@@ -96,11 +97,13 @@ h4 {
     color: black;
     font-family: sans-serif;
     font-size: 2em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color:darksalmon;
     color:black;
+    padding: 25px 50px;
 }
 
 footer a {
@@ -114,7 +117,8 @@ footer a:hover {
 }
 
 .icon {
-    width: 80px
+    width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -129,6 +133,7 @@ nav a {
     color: chocolate;
     text-decoration: none;
     color:black;
+    padding: 35px;
 }
 
 .book,
@@ -139,6 +144,7 @@ nav a {
     font-family: fantasy;
     font-size: 2em;
     background-color: darksalmon;
+    padding: 15px 30px;
 }
 
 footer a {
@@ -159,6 +165,9 @@ footer p a:hover {
 }
 h2{
     margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
 }
 
 
