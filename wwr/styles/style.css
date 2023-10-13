@@ -48,6 +48,7 @@ nav a:hover {
 }
 .msg {
     background-color:darksalmon;
+    line-height: 1.5em;
 }
 
 footer {
