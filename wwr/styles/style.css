@@ -75,6 +75,7 @@ nav a:hover {
     color: black;
     font-family: fantasy;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -104,6 +105,7 @@ footer {
     background-color:darksalmon;
     color:black;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -145,6 +147,7 @@ nav a {
     font-size: 2em;
     background-color: darksalmon;
     padding: 15px 30px;
+    margin-top: 50px;
 }
 
 footer a {
@@ -172,4 +175,9 @@ h2{
 footer .social img{
     padding-top: 15px;
 }
+.river-card, .camping-card,
+.rapids-card{
+    margin:200px 0;
+}
+
 
