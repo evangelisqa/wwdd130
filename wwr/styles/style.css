@@ -232,3 +232,6 @@ nav{
     opacity: .6;
     transform: scale(1.1);
 }
+.card-img, .mountains{
+    width: 100%;
+}
