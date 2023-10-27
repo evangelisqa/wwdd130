@@ -51,22 +51,21 @@ nav a:hover {
 
 #background {
     background-color:bisque;
+    width: 100%;
 }
 .msg {
     background-color:darksalmon;
     line-height: 1.5em;
     padding: 35px;
-}
-
-footer {
-    background-color:darksalmon;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 nav a {
     background-color: darksalmon;
     color: black;
 }
-
 nav a:hover {
     background-color:cornsilk;
     color: black;
@@ -109,6 +108,9 @@ footer {
     color:black;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer a {
@@ -180,12 +182,15 @@ h2{
 footer .social img{
     padding-top: 15px;
 }
-.river-card, .camping-card,
+.rivers-card, .camping-card,
 .rapids-card{
     margin:200px 0;
+    width: 100%;
 }
 .card-img{
-    border:10px solid #d9c2a3
+    border:10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #e8e8da;
 }
 main section img{
     box-sizing: border-box;
@@ -220,6 +225,10 @@ nav{
     display: grid;
     grid-template-columns: 10, 1fr;
 }
-.card-img, .mountains{
+.mountains{
     width: 100%;
+}
+.card-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
