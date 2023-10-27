@@ -216,3 +216,10 @@ nav{
     grid-row: 1.2;
     margin-top: 100px;
 }
+.home-grid{
+    display: grid;
+    grid-template-columns: 10, 1fr;
+}
+.card-img, .mountains{
+    width: 100%;
+}
