@@ -55,6 +55,7 @@ nav a:hover {
 }
 .msg {
     background-color:darksalmon;
+    line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
