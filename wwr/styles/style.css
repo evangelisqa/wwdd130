@@ -67,10 +67,6 @@ nav a {
     background-color: darksalmon;
     color: black;
 }
-nav a:hover {
-    background-color:cornsilk;
-    color: black;
-}
 
 .home-title {
     background-color:blanchedalmond;
