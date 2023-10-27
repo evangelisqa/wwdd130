@@ -205,3 +205,11 @@ nav{
 #hero-msg h4{
     color: white;
 }
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-msg{
+    grid-column: 2/3;
+}
