@@ -173,12 +173,12 @@ footer .social img{
 .rapids-card{
     margin:200px 0;
     width: 100%;
+    justify-content: center;
 }
 .card-img{
     border:10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #e8e8da;
-    display: flex;
 }
 main section img{
     box-sizing: border-box;
