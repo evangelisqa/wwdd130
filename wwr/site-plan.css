@@ -54,7 +54,7 @@ h5,
 h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
-    color: antiquewhite;
+    text-decoration: antiquewhite;
 }
 
 h2 {
