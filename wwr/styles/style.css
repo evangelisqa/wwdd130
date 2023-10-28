@@ -221,10 +221,7 @@ nav{
     margin-top: -100px;
     text-align: center;
 }
-#hero{
-    display: grid;
-    grid-template-columns:5,1fr;
-}
+
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
