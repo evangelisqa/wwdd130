@@ -215,7 +215,6 @@ nav{
 .home-grid{
     display: grid;
     grid-template-columns: 10, 1fr;
-    gap: 10px;
 }
 .card-img, .mountains{
     width: 100%;
@@ -231,6 +230,10 @@ nav{
 .rapids-card{
     grid-column: 8/10;
     grid-row: 2/3;
+}
+#background{
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 .mountains{
     width: 100%;
