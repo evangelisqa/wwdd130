@@ -212,6 +212,8 @@ nav{
 .home-grid{
     display: grid;
     grid-template-columns: 10, 1fr;
+}
+main .home-grid{
     align-items: center;
 }
 .mountains{
