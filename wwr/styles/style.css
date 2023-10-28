@@ -21,6 +21,8 @@ main section {
 
 #background {
     height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 
 body {
@@ -62,6 +64,7 @@ nav a {
     background-color: darksalmon;
     color: black;
     text-align: center;
+    padding: 35px;
 }
 
 .home-title {
@@ -71,7 +74,9 @@ nav a {
     font-size: 2em;
     margin-top: 10px;
 }
-
+h1{
+    text-align:center;
+}
 h4 {
     background-color: darksalmon;
     color: black;
@@ -212,9 +217,13 @@ nav{
     margin-top: -100px;
     text-align: center;
 }
+#hero{
+    display: grid;
+    grid-template-columns: repeat (5,1fr);
+}
 #hero-msg{
     grid-column: 2/3;
-    grid-row: 1.2;
+    grid-row: 1/2;
     margin-top: 100px;
     text-align: center;
 }
@@ -224,7 +233,7 @@ nav{
 }
 .home-grid{
     display: grid;
-    grid-template-columns: 10, 1fr;
+    grid-template-columns:repeat(10, 1fr);
 }
 
 .rivers-card{
@@ -262,6 +271,43 @@ nav{
 
 #hero-img{
     width:100%;
+}
+.column{
+    float: left;
+    width: 35%;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+.mikey{
+    float: left;
+    width: 30%;
+    padding-top: 10px;
+    padding-left: 125px;
+}
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+.avi{
+    float:left;
+    width: 25%;
+    padding-top: 10px;
+    padding-left: 160px;
+}
+.row2::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.paragraph{
+    padding-left: 120px;
+    padding-right: 270px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
