@@ -1,5 +1,8 @@
-
- nav a {
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+.hero-msg{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a {
     text-align: center;
     color:cornsilk
 }
@@ -212,18 +215,7 @@ nav{
 .home-grid{
     display: grid;
     grid-template-columns: 10, 1fr;
-    justify-items: center;
-}
-
-.mountains{
-    width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #d9c2a3;
-}
-.card-img:hover{
-    opacity: .6;
-    transform: scale(1.1);
+    gap: 10px;
 }
 .card-img, .mountains{
     width: 100%;
@@ -240,6 +232,17 @@ nav{
     grid-column: 8/10;
     grid-row: 2/3;
 }
+.mountains{
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #d9c2a3;
+}
+.card-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
 #hero-img{
     width:100%;
 }
