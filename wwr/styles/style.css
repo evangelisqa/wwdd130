@@ -213,9 +213,7 @@ nav{
     display: grid;
     grid-template-columns: 10, 1fr;
 }
-.rapids{
-    align-items: left;
-}
+
 .mountains{
     width: 100%;
     grid-column: 2/7;
