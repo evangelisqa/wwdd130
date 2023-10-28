@@ -216,7 +216,7 @@ nav{
     display: grid;
     grid-template-columns: 10, 1fr;
 }
-.card-img, .mountains{
+.card-img{
     width: 100%;
 }
 .rivers-card{
