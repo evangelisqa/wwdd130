@@ -210,8 +210,6 @@ nav{
     margin-top: 100px;
 }
 .home-grid{
-    display: grid;
-    grid-template-columns: 10, 1fr;
     justify-content: center;
 }
 .mountains{
