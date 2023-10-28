@@ -212,8 +212,7 @@ nav{
 .home-grid{
     display: grid;
     grid-template-columns: 10, 1fr;
-    justify-content: center;
-    grid-column: 1/3;
+    align-items: center;
 }
 .mountains{
     width: 100%;
