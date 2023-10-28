@@ -68,7 +68,7 @@ nav a {
 }
 
 .home-title {
-    background-color:blanchedalmond;
+    background-color:antiquewhite;
     color: black;
     font-family: 'Rock Salt', 'Bradley' sans-serif;
     font-size: 2em;
@@ -78,8 +78,8 @@ h1{
     text-align:center;
 }
 h4 {
-    background-color: darksalmon;
-    color: black;
+    background-color:darksalmon;
+    color:black;
 }
 .book:hover, .join:hover {
     background-color: darksalmon;
