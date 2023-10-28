@@ -63,7 +63,9 @@ h2 {
     text-align: center;
     color:darksalmon
 }
-
+h3{
+    font-family: cursive;
+}
 hr {
     height: 3px;
     margin: 35px 0;
