@@ -75,7 +75,7 @@ header {
 
 header>h1,
 header>h2 {
-    color:antiquewhite;
+    color:var(--headline-color-on-color);
 }
 
 p {
