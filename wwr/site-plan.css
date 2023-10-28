@@ -58,7 +58,6 @@ h6 {
 
 h2 {
     text-align: center;
-    color: antiquewhite;
 }
 
 hr {
@@ -76,7 +75,7 @@ header {
 
 header>h1,
 header>h2 {
-    color: var(--headline-color-on-color);
+    color:antiquewhite;
 }
 
 p {
