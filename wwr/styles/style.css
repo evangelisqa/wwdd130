@@ -70,7 +70,7 @@ nav a {
 .home-title {
     background-color:antiquewhite;
     color: black;
-    font-family: 'Rock Salt', 'Bradley' sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -95,7 +95,7 @@ h4 {
     background-color:darksalmon;
     color: black;
     font-family: sans-serif;
-    font-size: auto;
+    font-size:medium;
     padding-bottom: 15px;
     text-align: left;
     line-height: 1.5em;
@@ -223,7 +223,7 @@ nav{
 }
 #hero{
     display: grid;
-    grid-template-columns: repeat (5,1fr);
+    grid-template-columns:5,1fr;
 }
 #hero-msg{
     grid-column: 2/3;
