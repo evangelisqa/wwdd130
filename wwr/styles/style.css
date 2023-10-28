@@ -225,7 +225,8 @@ nav{
 }
 .camping-card{
     grid-column: 5/7;
-    grid-row: 2/6;
+    grid-row: 2/3;
+    margin-left:35px;
 }
 .rapids-card{
     grid-column: 8/10;
