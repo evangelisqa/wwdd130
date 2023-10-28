@@ -211,8 +211,10 @@ nav{
 }
 .home-grid{
     display: grid;
-    grid-template-columns: 2fr 2fr 4fr, 2fr;
+    grid-template-columns: 10, 1fr;
+    justify-items: center;
 }
+
 .mountains{
     width: 100%;
     grid-column: 2/7;
@@ -225,6 +227,18 @@ nav{
 }
 .card-img, .mountains{
     width: 100%;
+}
+.rivers-card{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card{
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card{
+    grid-column: 8/10;
+    grid-row: 2/3;
 }
 #hero-img{
     width:100%;
