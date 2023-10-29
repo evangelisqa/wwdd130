@@ -61,7 +61,8 @@ h6 {
 
 h2 {
     text-align: center;
-    color:darksalmon
+    color:darksalmon;
+    font-family:fantasy;
 }
 h3{
     font-family: cursive;
@@ -86,7 +87,7 @@ header>h2 {
 }
 
 p {
-    font-family: var(--paragraph-font);
+    font-family:fantasy;
     color: var(--paragraph-color-on-white);
     padding: 1em;
     text-align: left;
@@ -211,4 +212,7 @@ nav a:hover {
     grid-area: right;
     border-top: 1px solid;
     border-right: 1px solid;
+}
+.topography{
+    font-family: fantasy;
 }
