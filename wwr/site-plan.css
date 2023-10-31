@@ -1,7 +1,9 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Josefin+Sans&family=Roboto&display=swap');
 
 :root {
     /* change the values below to your colors from your palette */
@@ -55,17 +57,17 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:Arial, sans-serif;
+    font-family:'Roboto', sans-serif;
     color:darksalmon;
 }
 
 h2 {
     text-align: center;
     color:darksalmon;
-    font-family:Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 h3{
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 hr {
     height: 3px;
@@ -78,13 +80,13 @@ header {
     text-align: center;
     color: #b2f7ef;
     background-color:wheat;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header>h1,
 header>h2 {
     color:chocolate;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -216,7 +218,7 @@ nav a:hover {
     border-right: 1px solid;
 }
 h3{
-    font-family: Arial, sans-serif; color:chocolate;
+    font-family:'Roboto', sans-serif;  color:chocolate;
 }
 h2{
     color: chocolate;
