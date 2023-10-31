@@ -62,10 +62,10 @@ h6 {
 h2 {
     text-align: center;
     color:darksalmon;
-    font-family:fantasy;
+    font-family:Arial, sans-serif;
 }
 h3{
-    font-family: cursive;
+    font-family: Arial, sans-serif;
 }
 hr {
     height: 3px;
