@@ -155,12 +155,12 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color: var(--nav-link-color);
+    color: black;
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+    color:#41521f ;
+    background-color:#f5fdc6 ;
 }
 
 .sitemap {
