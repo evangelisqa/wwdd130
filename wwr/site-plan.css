@@ -111,24 +111,24 @@ p {
 }
 
 .primary {
-    background-color: var(--primary-color);
+    background-color:#E76f51;
 }
 
 .secondary {
-    background-color: var(--secondary-color);
+    background-color:#d4a373;
 }
 
 .accent1 {
-    background-color: var(--accent1-color);
+    background-color: #cdb4db;
 }
 
 .accent2 {
-    background-color: var(--accent2-color);
+    background-color: #f5ebe0;;
 }
 
 p.colored {
-    background-color: var(--paragraph-background-color);
-    color: var(--paragraph-color-on-color);
+    background-color:bisque;
+    color:Black;
 }
 
 nav {
@@ -215,11 +215,8 @@ nav a:hover {
     border-top: 1px solid;
     border-right: 1px solid;
 }
-.topography{
-    font-family: fantasy;
-}
 h3{
-    font-family:'Arial Narrow', Arial, sans-serif; color:chocolate;
+    font-family: Arial, sans-serif; color:chocolate;
 }
 h2{
     color: chocolate;
