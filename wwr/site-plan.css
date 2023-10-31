@@ -78,6 +78,7 @@ header {
     text-align: center;
     color: var(--headline-color-on-color);
     background-color:wheat;
+    font-family: Arial, sans-serif;
 }
 
 header>h1,
