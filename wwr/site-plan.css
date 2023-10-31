@@ -70,13 +70,13 @@ h3{
 hr {
     height: 3px;
     margin: 35px 0;
-    background: var(--accent1-color);
+    background: #cdb4db;
 }
 
 header {
     padding: 1em;
     text-align: center;
-    color: var(--headline-color-on-color);
+    color: #b2f7ef;
     background-color:wheat;
     font-family: Arial, sans-serif;
 }
