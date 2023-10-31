@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #396E94;
-    --secondary-color: #E7C24F;
-    --accent1-color: #A42212;
-    --accent2-color: white;
+    --primary-color: #E76f51;
+    --secondary-color: #d4a373;
+    --accent1-color: #cdb4db;
+    --accent2-color:#f5ebe0;
 
     /* change the values below to your chosen font(s) */
     --heading-font: "IM Fell French Canon SC";
@@ -82,13 +82,13 @@ header {
 
 header>h1,
 header>h2 {
-    color: #A42212;
-    font-family:cursive;
+    color:chocolate;
+    font-family: Arial, sans-serif;
 }
 
 p {
-    font-family:fantasy;
-    color: var(--paragraph-color-on-white);
+    font-family:Georgia, serif;
+    color:darkslategrey;
     padding: 1em;
     text-align: left;
 }
@@ -140,6 +140,7 @@ nav {
 nav {
     list-style-type: none;
     display: flex;
+    background-color:#f2e8cf ;
 
 }
 
@@ -181,19 +182,19 @@ nav a:hover {
 
 .sm-home {
     grid-area: home;
-    background-color: #ccc;
+    background-color:#f3722c;
     line-height: 3em;
 }
 
 .sm-page2 {
     grid-area: page2;
-    background-color: #ccc;
+    background-color: #f3722c;
     line-height: 3em;
 }
 
 .sm-page3 {
     grid-area: page3;
-    background-color: #ccc;
+    background-color:#f3722c;
     line-height: 3em;
 }
 
@@ -215,4 +216,10 @@ nav a:hover {
 }
 .topography{
     font-family: fantasy;
+}
+h3{
+    font-family:'Arial Narrow', Arial, sans-serif; color:chocolate;
+}
+h2{
+    color: chocolate;
 }
