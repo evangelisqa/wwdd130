@@ -134,6 +134,7 @@ nav {
 }
 #hero .img{
     text-align: center;
+    width: 1000px;
 }
 @media screen and (max-width: 900px) {
 
