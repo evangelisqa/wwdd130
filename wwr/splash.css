@@ -433,4 +433,10 @@ h3 .home{
     background-color: #ccc;
     line-height: 3em;
   }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 
