@@ -1,10 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
-.hero-msg {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 nav a {
     text-align: center;
     color: cornsilk
@@ -12,12 +8,6 @@ nav a {
 p{
     text-align: left;
 }
-
-#hero-msg h1,
-#hero-msg h4 {
-    text-align: center;
-}
-
 .button-box {
     text-align: center;
 }
@@ -60,16 +50,6 @@ nav a:hover {
     background-color: bisque;
     width: 100%;
 }
-
-.msg {
-    background-color: darksalmon;
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
 nav a {
     background-color: darksalmon;
     color: black;
@@ -90,34 +70,6 @@ h1 {
     color: white;
 }
 
-h4 {
-    background-color: darksalmon;
-    color: black;
-}
-
-.book:hover,
-.join:hover {
-    background-color: darksalmon;
-    color: black;
-}
-
-.msg h2 {
-    background-color: darksalmon;
-    color: black;
-}
-
-.msg p {
-    background-color: darksalmon;
-    color: black;
-    font-family: sans-serif;
-    font-size: medium;
-    padding-bottom: 15px;
-    text-align: left;
-    line-height: 1.5em;
-    padding: 20px;
-    border-style: dotted
-}
-
 footer {
     background-color: darksalmon;
     color: black;
@@ -127,12 +79,6 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-
-footer a {
-    background-color: darksalmon;
-    color: black;
-}
-
 footer a:hover {
     background-color: darksalmon;
     color: black;
@@ -183,25 +129,15 @@ footer p {
     font-size: 1.2em;
     background-color: darksalmon;
 }
-
-footer p a:hover {
-    text-decoration: underline;
-    background-color: darksalmon;
-}
-
-.join footer p {
-    font-size: 1.2em;
-}
-
 h2 {
     margin: 0;
 }
 
 #logo_link {
     padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-    text-align:left;
+    justify-self: right;
+    align-self: right;
+    text-align:right;
     color: #d9c2a3;
 }
 
@@ -288,4 +224,6 @@ h3 .home{
     background-color: #ccc;
     line-height: 3em;
   }
- 
+ #h4 img{
+    align-items:center;
+ }
