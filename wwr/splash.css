@@ -11,7 +11,6 @@ p{
 .button-box {
     text-align: center;
 }
-
 main section {
     text-align: center;
 }
@@ -27,21 +26,6 @@ header {
     background-color: darksalmon;
     display: grid;
     grid-template-columns: 150px auto;
-}
-
-nav a:hover {
-    background-color: darksalmon;
-    color: black;
-}
-
-.book:hover,
-.join:hover {
-    background-color: brown;
-}
-
-#background {
-    background-color: bisque;
-    width: 100%;
 }
 nav a {
     background-color: darksalmon;
@@ -85,6 +69,7 @@ footer a:hover {
 .logo {
     width: 80px;
     float: right;
+    margin-top: 20px;
 }
 
 img .icon {
@@ -98,8 +83,7 @@ nav a {
     padding: 35px;
 }
 
-.book,
-.join {
+.book{
     color: black;
     text-decoration: none;
     font-family: fantasy;
@@ -153,11 +137,7 @@ nav {
 }
 @media screen and (max-width: 900px) {
 
-    #hero,
-    .home-grid {
-        display: block;
-        height: auto;
-    }
+    
     nav,
     footer {
         flex-direction: column;
@@ -167,35 +147,10 @@ nav {
         display: block;
         padding: 15px;
     }
-
-    #hero {
-        margin-top: 0;
-    }
-
-    #hero-msg {
-        margin-top: 0;
-    }
-
-    #hero-msg h4 {
-        display: none;
-    }
-
     .home-title {
         font-size: 25px;
         color: #6f7364;
     }
-
-    #background {
-        display: none;
-    }
-
-    .mountains,
-    .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-
     footer {
         margin-top: 25px;
     }
@@ -212,11 +167,6 @@ h3 .home{
 .home h3{
     text-align: center;
 }
-.sm-home {
-    grid-area: home;
-    background-color: #ccc;
-    line-height: 3em;
-  }
  #h4 img{
     align-items:center;
  }
