@@ -1,38 +1,63 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
+.hero-msg {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav a {
     text-align: center;
     color: cornsilk
 }
-p{
-    text-align: left;
-}
+
+
+
 .button-box {
     text-align: center;
 }
+
 main section {
     text-align: center;
 }
+
+#background {
+    height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
 body {
-    background-color:#d8f3dc;
+    background-color:#F5F5DC;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
     padding: 0;
 }
 
 header {
     background-color: darksalmon;
-    display: grid;
+    display:grid;
     grid-template-columns: 150px auto;
+    padding-left: 30px;
 }
-nav a {
+
+nav a:hover {
     background-color: darksalmon;
     color: black;
-    text-align: center;
-    padding: 35px;
 }
+
+.book:hover{
+    background-color: brown;
+}
+
+#background {
+    background-color: bisque;
+    width: 100%;
+}
+
+
+
 
 .home-title {
     background-color: antiquewhite;
@@ -44,7 +69,14 @@ nav a {
 
 h1 {
     text-align: center;
-    color: white;
+}
+.msg h2 {
+    background-color: darksalmon;
+    color: black;
+}
+
+p{
+    text-align: left;
 }
 
 footer {
@@ -56,11 +88,6 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-footer a:hover {
-    background-color: darksalmon;
-    color: black;
-}
-
 .icon {
     width: 80px;
     padding-top: 10px;
@@ -69,12 +96,8 @@ footer a:hover {
 .logo {
     width: 80px;
     float: right;
-    margin-top: 20px;
 }
 
-img .icon {
-    width: 80px;
-}
 
 nav a {
     text-align: center;
@@ -83,7 +106,7 @@ nav a {
     padding: 35px;
 }
 
-.contact us{
+.contact{
     color: black;
     text-decoration: none;
     font-family: fantasy;
@@ -94,28 +117,16 @@ nav a {
     border-radius: 5px;
     text-align: center;
 }
-
-footer a {
-    text-align: center;
-    color: darkblue;
-    text-decoration: none;
-    background-color: darksalmon;
-}
-
-footer p {
-    font-size: 1.2em;
-    background-color: darksalmon;
-}
 h2 {
     margin: 0;
 }
 
 #logo_link {
     padding-top: 5px;
-    justify-self: right;
-    align-self: right;
-    text-align:right;
-    color: #d9c2a3;
+    justify-self: center;
+    align-self: center;
+    text-align:left;
+    background-color:#d9c2a3;
 }
 
 footer .social img {
@@ -123,34 +134,32 @@ footer .social img {
     width: 50px;
     height: 50px;
 }
+
+
+main section img {
+    box-sizing: border-box;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
 }
-#hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
+
+#hero-img {
+    width:100%;
 }
-.hero-img{
-    text-align: center;
-    width: 2000px;
-}
+
 @media screen and (max-width: 900px) {
 
-    
-    nav,
-    footer {
-        flex-direction: column;
-    }
-
-    nav a {
-        display: block;
-        padding: 15px;
+    #hero {
+        margin-top: 0;
     }
     .home-title {
         font-size: 25px;
         color: #6f7364;
+    }
+    #background {
+        display: none;
     }
     footer {
         margin-top: 25px;
@@ -168,6 +177,8 @@ h3 .home{
 .home h3{
     text-align: center;
 }
- #h4 img{
-    align-items:center;
- }
+.sm-home {
+    grid-area: home;
+    background-color: #ccc;
+    line-height: 3em;
+  }
