@@ -410,3 +410,20 @@ nav {
         margin-top: 25px;
     }
 }
+h2 .wireframe{
+    text-align: center;
+}
+h3 .home{
+    text-align: center;
+}
+.wireframe h2{
+    text-align: center;
+}
+.home h3{
+    text-align: center;
+}
+.sm-home {
+    grid-area: home;
+    background-color: #ccc;
+    line-height: 3em;
+  }
