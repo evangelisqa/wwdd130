@@ -132,7 +132,9 @@ nav {
     grid-row: 1/3;
     z-index: -1;
 }
-
+#hero .img{
+    text-align: center;
+}
 @media screen and (max-width: 900px) {
 
     
