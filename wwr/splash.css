@@ -33,7 +33,7 @@ main section {
 }
 
 body {
-    background-color: antiquewhite;
+    background-color:#d8f3dc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
     margin: 0;
@@ -87,6 +87,7 @@ nav a {
 
 h1 {
     text-align: center;
+    background-color: white;
 }
 
 h4 {
