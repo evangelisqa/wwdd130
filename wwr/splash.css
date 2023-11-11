@@ -15,13 +15,6 @@ p{
 main section {
     text-align: center;
 }
-
-#background {
-    height: 725px;
-    grid-column: 1/11;
-    grid-row: 4/9;
-}
-
 body {
     background-color:#d8f3dc;
     font-family: Georgia, 'Times New Roman', Times, serif;
