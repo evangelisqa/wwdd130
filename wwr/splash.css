@@ -1,0 +1,26 @@
+
+
+h3{
+    text-align: left;
+}
+body{
+    background-color:#ffffb3;
+}
+footer p {
+    font-size: 1.2em;
+    background-color: darksalmon;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    text-align:left;
+    color: #d9c2a3;
+}
+.home-title {
+    background-color: antiquewhite;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
