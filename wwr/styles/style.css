@@ -32,15 +32,11 @@ body {
     background-color:#f5efff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
-header {
-    background-color: darksalmon;
-    display: grid;
-    grid-template-columns: 150px auto;
-}
+
 
 nav a:hover {
     background-color: darksalmon;
@@ -72,7 +68,6 @@ nav a {
     text-align: center;
     padding: 35px;
 }
-
 .home-title {
     background-color: antiquewhite;
     color: black;
@@ -140,12 +135,14 @@ footer a:hover {
 
 .logo {
     width: 80px;
+    float: center;
+    
 }
 header {
     background-color: darksalmon;
     display:grid;
     grid-template-columns: 150px auto;
-    padding-left: 30px;
+    padding-left: 170px;
 }
 
 img .icon {
@@ -195,15 +192,6 @@ footer p a:hover {
 h2 {
     margin: 0;
 }
-
-#logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-    text-align:left;
-    color: #d9c2a3;
-}
-
 
 footer .social img {
     padding-top: 15px;
@@ -312,7 +300,7 @@ nav {
 }
 
 #hero-img {
-    width: 100%;
+    width: 1600px;
 }
 
 .column {
@@ -420,6 +408,21 @@ form {
     margin-left: 0.5em;
   }
 
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+
 @media screen and (max-width: 900px) {
 
     #hero,
@@ -480,15 +483,21 @@ form {
 h2 .wireframe{
     text-align: center;
 }
+
+.home h3{
+    text-align: center;
+}
+
 h3 {
     text-align: center;
 }
 h2{
     text-align: center;
 }
-.home h3{
+h2 .wireframe{
     text-align: center;
 }
+
 .sm-home {
     grid-area: home;
     background-color: #ccc;

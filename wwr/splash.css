@@ -39,7 +39,7 @@ header {
     background-color: darksalmon;
     display:grid;
     grid-template-columns: 150px auto;
-    padding-left: 30px;
+    padding-left: 170px;
 }
 nav a:hover {
     background-color: darksalmon;
@@ -93,6 +93,7 @@ footer {
 .logo {
     width: 80px;
     float: right;
+    margin-right: 20px;
 }
 
 
@@ -118,13 +119,7 @@ h2 {
     margin: 0;
 }
 
-#logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-    text-align:left;
-    background-color:#d9c2a3;
-}
+
 
 footer .social img {
     padding-top: 15px;
