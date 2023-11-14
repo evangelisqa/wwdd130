@@ -3,11 +3,26 @@
 .hero-msg {
     font-family: Arial, Helvetica, sans-serif;
 }
-
 nav a {
     text-align: center;
-    color: cornsilk
+    color: black;
+    padding: 35px;
+    background-color: darksalmon;
+    color: black;
 }
+nav {
+    display: flex;  
+}
+header {
+    background-color: darksalmon;
+    display:grid;
+    grid-template-columns: 150px auto;
+    padding-left: 10px;
+}
+.logo {
+    width: 80px;
+}
+
 
 #hero-msg h1,
 #hero-msg h4 {
@@ -53,11 +68,7 @@ body {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-nav a {
-    background-color: darksalmon;
-    color: black;
 
-}
 .home-title {
     background-color: antiquewhite;
     color: black;
@@ -122,27 +133,10 @@ footer a:hover {
     width: 80px;
     padding-top: 10px;
 }
-
-.logo {
-    width: 80px;
-}
-header {
-    background-color: darksalmon;
-    display:grid;
-    grid-template-columns: 150px auto;
-    padding-left: 100px;
-}
-
 img .icon {
     width: 80px;
 }
 
-nav a {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    padding: 35px;
-}
 .book,
 .join {
     color: black;
@@ -197,12 +191,6 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
-
-nav {
-    display: flex;
-   
-}
-
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
