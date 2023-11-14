@@ -293,21 +293,6 @@ main section img {
     display: table;
 }
 
-.mikey {
-    float: left;
-    width: 30%;
-    padding-top: 10px;
-    padding-left: 125px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
-
 .row2::after {
     content: "";
     clear: both;
