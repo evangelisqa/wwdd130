@@ -77,6 +77,8 @@ h1 {
 
 p{
     text-align: left;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 footer {
