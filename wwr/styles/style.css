@@ -306,12 +306,7 @@ main section img {
     display: table;
 }
 
-.avi {
-    float: left;
-    width: 25%;
-    padding-top: 10px;
-    padding-left: 160px;
-}
+
 
 .row2::after {
     content: "";
