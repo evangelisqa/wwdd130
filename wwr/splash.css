@@ -77,8 +77,8 @@ h1 {
 
 p{
     text-align: left;
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 footer {
@@ -189,6 +189,7 @@ footer {
 }
 h3 {
     text-align: left;
+    margin-left: 15px;
 }
 h4{
     text-align: center;
