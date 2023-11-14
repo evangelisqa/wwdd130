@@ -32,7 +32,6 @@ body {
     background-color:#f5efff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
-    margin:0;
     padding:0;
 }
 
@@ -135,14 +134,12 @@ footer a:hover {
 
 .logo {
     width: 80px;
-    float: center;
-    
 }
 header {
     background-color: darksalmon;
     display:grid;
     grid-template-columns: 150px auto;
-    padding-left: 170px;
+    padding-left: 100px;
 }
 
 img .icon {
@@ -212,7 +209,8 @@ main section img {
 
 nav {
     display: flex;
-    justify-content: space-around;
+   
+
 }
 
 #hero {
