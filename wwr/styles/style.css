@@ -28,7 +28,24 @@ header {
     text-align: center;
     margin-top: 50px;
 }
-
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+h4 {
+    background-color: darksalmon;
+    color: black;
+}
+#hero-msg h4 {
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 .button-box {
     text-align: center;
 }
@@ -68,8 +85,6 @@ body {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
-
 .home-title {
     background-color: antiquewhite;
     color: black;
@@ -80,11 +95,6 @@ body {
 
 h1 {
     text-align: center;
-}
-
-h4 {
-    background-color: darksalmon;
-    color: black;
 }
 
 .book:hover,
@@ -191,22 +201,6 @@ footer .social img {
 
 main section img {
     box-sizing: border-box;
-}
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-}
-
-#hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-}
-
-#hero-msg h4 {
-    color: white;
-    padding-bottom: 10px;
-    padding-top: 10px;
 }
 
 #hero {
