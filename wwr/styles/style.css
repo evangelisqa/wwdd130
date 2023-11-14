@@ -48,6 +48,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
     padding:0;
+    width:100%;
 }
 .book:hover,
 .join:hover {
@@ -276,7 +277,7 @@ main section img {
 }
 
 #hero-img {
-    width: 1600px;
+    width: 100%;
 }
 
 .column {
