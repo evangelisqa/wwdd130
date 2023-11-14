@@ -34,14 +34,6 @@ body {
     font-size: 22px;
     padding:0;
 }
-
-
-
-nav a:hover {
-    background-color: darksalmon;
-    color: black;
-}
-
 .book:hover,
 .join:hover {
     background-color: brown;
