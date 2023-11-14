@@ -41,7 +41,6 @@ header {
     grid-template-columns: 150px auto;
     padding-left: 30px;
 }
-
 nav a:hover {
     background-color: darksalmon;
     color: black;
@@ -55,10 +54,6 @@ nav a:hover {
     background-color: bisque;
     width: 100%;
 }
-
-
-
-
 .home-title {
     background-color: antiquewhite;
     color: black;
