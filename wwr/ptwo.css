@@ -47,11 +47,8 @@
     background-color: white;
     padding: 10px;
   }
-  .img{
-    width: 10px;
-    height: 10px;
-  }
   
+
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 900px) {
     .column {
