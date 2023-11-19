@@ -47,7 +47,9 @@
     background-color: white;
     padding: 10px;
   }
-  
+  .logo{
+    width:150px;
+  }
 
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 900px) {
