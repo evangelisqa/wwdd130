@@ -6,7 +6,6 @@ header {
 }
 
 nav a {
-
   color: black;
   padding: 35px;
   text-align: right;
@@ -20,6 +19,7 @@ nav {
 .logo {
   width: 80px;
   border-radius: 50%;
+  margin-top: 2%;
 }
 
 
@@ -37,6 +37,7 @@ nav {
 img {
   float: right;
   margin-top: 10px;
+  width: 50%;
 }
 
 .container .btn {
@@ -76,7 +77,6 @@ h4{
 }
 main p{
   text-align: justify;
-  
 }
 footer {
   background-color: #e7c6ff;
@@ -86,6 +86,7 @@ footer .social img {
   width: 50px;
   height: 50px;
 }
+
 footer p a:hover {
   text-decoration: underline;
   color: black;
@@ -102,4 +103,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.social img{
+  padding: 5px;
 }
