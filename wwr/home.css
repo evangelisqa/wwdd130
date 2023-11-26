@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display:ital@0;1&family=Fuggles&family=Josefin+Sans&family=Quicksand:wght@600&family=Roboto+Condensed:wght@100;200&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
+
 header {
   background-color: #e7c6ff;
   display: grid;
@@ -69,7 +72,7 @@ body {
 }
 h3{
   margin-top: 40%;
-  font-family: DM Serif Display, serif;
+  font-family: 'DM Serif Display', serif;
 }
 h4{
   font-size: large;
@@ -77,7 +80,7 @@ h4{
 }
 main p{
   text-align: left;
-  font-style: roboto,sans-serif;
+  font-style: 'Roboto',sans-serif;
 }
 footer {
   background-color: #e7c6ff;
