@@ -80,7 +80,7 @@ h4{
 }
 main p{
   text-align: left;
-  font-style: 'Roboto',sans-serif;
+  font-family: 'Roboto',sans-serif;
 }
 footer {
   background-color: #e7c6ff;
