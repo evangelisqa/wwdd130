@@ -69,6 +69,7 @@ body {
 }
 h3{
   margin-top: 40%;
+  font-family: DM Serif Display, serif;
 }
 h4{
   font-size: large;
@@ -76,6 +77,7 @@ h4{
 }
 main p{
   text-align: left;
+  font-style: roboto,sans-serif;
 }
 footer {
   background-color: #e7c6ff;
