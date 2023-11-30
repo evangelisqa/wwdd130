@@ -4,7 +4,7 @@
 
 header {
   background-color:#cdb4db ;
-  display: flexbox;
+  display:grid;
   grid-template-columns: 150px auto;
   padding-left: 10px;
 }
@@ -12,8 +12,8 @@ header {
 nav a {
   color: black;
   padding: 35px;
-  text-align: right;
-  float: right;
+  text-align: left;
+  margin-top: 1%;
 }
 
 nav {
@@ -23,7 +23,7 @@ nav {
 .logo {
   width: 80px;
   border-radius: 50%;
-
+  margin-bottom: 5%;
 }
 
 
