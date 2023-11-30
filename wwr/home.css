@@ -71,16 +71,17 @@ body {
   background-color: #f5ebe0;
 }
 h3{
-  margin-top: 40%;
+  margin-top: 45%;
   font-family: 'DM Serif Display', serif;
 }
 h4{
-  font-size: large;
+  font-size: medium;
   margin-top: 1%;
 }
 main p{
   text-align: left;
   font-family: 'Roboto',sans-serif;
+  font-size:large;
 }
 footer {
   background-color: #cdb4db;
