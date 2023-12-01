@@ -20,4 +20,12 @@ img:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+  p{
+    text-align: center;
+  }
+  body{
+    background-color:#E8E0D1 ;
   }
