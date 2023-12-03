@@ -1,4 +1,3 @@
-
 header {
   background-color:#cdb4db ;
   display:grid;
@@ -8,13 +7,41 @@ header {
 p{
   font-family:'Roboto',sans-serif;
 }
-
+main .image{
+  width:100%;
+}
 nav a{
   padding:3%;
 }
 nav {
   display: flex;
 }
+
+  .logo {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 5%;
+    padding-top: 6%;
+  }
+
+  footer {
+    background-color:#cdb4db ;
+    color: black;
+    padding: 15px 10px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer .social img{
+    background-color:#cdb4db;
+    border-radius: 50%;
+    width: 50px;
+  }
+.content{
+  margin-bottom: 100px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -79,40 +106,3 @@ h1 {
   }
 }
 
-  .logo {
-    width: 80px;
-    border-radius: 50%;
-    margin-bottom: 5%;
-    padding-top: 6%;
-  }
-  
-  
-  footer {
-    background-color:#cdb4db ;
-    color: black;
-    padding: 15px 10px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  footer .social img{
-    background-color:#cdb4db;
-    border-radius: 50%;
-    width: 50px;
-  }
-
-
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
