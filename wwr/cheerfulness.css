@@ -16,12 +16,15 @@ nav a{
 nav {
   display: flex;
 }
-
+.div{
+  column-gap: 10px;
+}
   .logo {
     width: 80px;
     border-radius: 50%;
     margin-bottom: 5%;
-    padding-top: 6%;
+    margin-top: 10%;
+    margin-left: 10px;
   }
 
   footer {
@@ -44,6 +47,7 @@ nav {
 p{
   font-family:'Robot', ',sans-serif';
 }
+
 * {
   box-sizing: border-box;
 }
@@ -58,11 +62,6 @@ body {
 .main {
   max-width: 1000px;
   margin: auto;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
 }
 
 .row {
