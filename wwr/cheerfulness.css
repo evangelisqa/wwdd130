@@ -16,9 +16,6 @@ nav a{
 nav {
   display: flex;
 }
-.div{
-  column-gap: 10px;
-}
   .logo {
     width: 80px;
     border-radius: 50%;
@@ -26,7 +23,7 @@ nav {
     margin-top: 10%;
     margin-left: 10px;
   }
-
+ 
   footer {
     background-color:#cdb4db ;
     color: black;
