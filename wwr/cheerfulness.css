@@ -41,13 +41,15 @@ nav {
 .content{
   margin-bottom: 100px;
 }
-
+p{
+  font-family:'Robot', ',sans-serif';
+}
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #F5EBE0;
   padding: 20px;
   font-family: Arial;
 }
