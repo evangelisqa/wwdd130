@@ -1,5 +1,5 @@
 header {
-  background-color: darksalmon;
+  background-color: #cdb4db;
   display: grid;
   grid-template-columns: 150px auto;
   padding-left: 20px;
@@ -13,7 +13,7 @@ nav a{
   }
   
   body {
-    background-color: #f1f1f1;
+    background-color:#FEF6F1;
     padding: 20px;
     font-family: Arial;
   }
@@ -62,14 +62,17 @@ nav a{
   }
   
   footer {
-    background-color: darksalmon;
+    background-color:#cdb4db ;
     color: black;
     padding: 15px 10px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+  }
+  footer .social img{
+    background-color:#cdb4db  ;
+  }
 
 
   /* Responsive layout - makes a two column-layout instead of four columns */
