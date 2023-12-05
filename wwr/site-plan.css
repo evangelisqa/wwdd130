@@ -10,7 +10,7 @@ Fonts are separated by a | */
     --primary-color: #cdb4db;
     --secondary-color: #fef6f1;
     --accent1-color: #f5ebe0;
-    --accent2-color:#d4a373;
+    --accent2-color: #d4a373;
 
     /* change the values below to your chosen font(s) */
     --heading-font: "IM Fell French Canon SC";
@@ -41,14 +41,14 @@ body {
     padding: 4em;
     font-size: 18px;
     text-align: center;
-    background-color:#fefee3;
+    background-color: #fefee3;
 }
 
 img {
     display: block;
     margin: 0 auto;
     width: 150px;
-    height:150px;
+    height: 150px;
 }
 
 h1,
@@ -57,18 +57,20 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:'DM Serif Display', serif;
-    color:darksalmon;
+    font-family: 'DM Serif Display', serif;
+    color: darksalmon;
 }
 
 h2 {
     text-align: center;
-    color:darksalmon;
-    font-family:'DM Serif Display', serif;
+    color: darksalmon;
+    font-family: 'DM Serif Display', serif;
 }
-h3{
-    font-family:'DM Serif Display', serif;
+
+h3 {
+    font-family: 'DM Serif Display', serif;
 }
+
 hr {
     height: 3px;
     margin: 35px 0;
@@ -79,19 +81,19 @@ header {
     padding: 1em;
     text-align: center;
     color: #b2f7ef;
-    background-color:wheat;
-    font-family:'DM Serif Display', serif;
+    background-color: wheat;
+    font-family: 'DM Serif Display', serif;
 }
 
 header>h1,
 header>h2 {
-    color:chocolate;
-    font-family:'DM Serif Display', serif;
+    color: chocolate;
+    font-family: 'DM Serif Display', serif;
 }
 
 p {
-    font-family:'Roboto',sans-serif;
-    color:darkslategrey;
+    font-family: 'Roboto', sans-serif;
+    color: darkslategrey;
     padding: 1em;
     text-align: left;
 }
@@ -113,28 +115,28 @@ p {
 }
 
 .primary {
-    background-color:#E76f51;
-}
-
-.secondary {
-    background-color:#d4a373;
-}
-
-.accent1 {
     background-color: #cdb4db;
 }
 
+.secondary {
+    background-color: #fef6f1;
+}
+
+.accent1 {
+    background-color: #f5ebe0;
+}
+
 .accent2 {
-    background-color: #f5ebe0;;
+    background-color: #d4a373;
 }
 
 p.colored {
-    background-color:bisque;
-    color:Black;
+    background-color: bisque;
+    color: Black;
 }
 
 nav {
-    background-color:#ffec51;
+    background-color: #ffec51;
     line-height: 3em;
     text-align: center;
     font-size: 1.2em;
@@ -143,7 +145,7 @@ nav {
 nav {
     list-style-type: none;
     display: flex;
-    background-color:#b8b8ff;
+    background-color: #b8b8ff;
 
 }
 
@@ -161,8 +163,8 @@ nav a:visited {
 }
 
 nav a:hover {
-    color:#41521f ;
-    background-color:#f5fdc6 ;
+    color: #41521f;
+    background-color: #f5fdc6;
 }
 
 .sitemap {
@@ -185,7 +187,7 @@ nav a:hover {
 
 .sm-home {
     grid-area: home;
-    background-color:#f3722c;
+    background-color: #f3722c;
     line-height: 3em;
 }
 
@@ -197,7 +199,7 @@ nav a:hover {
 
 .sm-page3 {
     grid-area: page3;
-    background-color:#f3722c;
+    background-color: #f3722c;
     line-height: 3em;
 }
 
@@ -217,10 +219,12 @@ nav a:hover {
     border-top: 1px solid;
     border-right: 1px solid;
 }
-h3{
-    font-family:'DM Serif Display', serif;  
-    color:chocolate;
+
+h3 {
+    font-family: 'DM Serif Display', serif;
+    color: chocolate;
 }
-h2{
+
+h2 {
     color: chocolate;
 }
