@@ -48,11 +48,13 @@ p{
   font-family:'Robot', ',sans-serif';
   font-size: 23px;
 }
+
 h3{
   font-family: 'DM Serif Display', serif;
+  font-size: 30px;
 }
-*{box-sizing: border-box;}
 
+*{box-sizing: border-box;}
 
 body {
   background-color: #F5EBE0;
@@ -76,7 +78,7 @@ body {
 
 /* Create four equal columns that floats next to each other */
 .column {
-  float: left;
+  float:left;
   width: 25%;
 }
 
