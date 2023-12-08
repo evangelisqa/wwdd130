@@ -6,6 +6,7 @@ header {
 }
 nav a{
   padding:3%;
+  margin-top: 15px;
 }
 nav {
   display: flex;
@@ -44,10 +45,12 @@ img.sticky {
   p{
     text-align: auto;
     margin-top: 5%;
+    font-size: 25px;
   }
+  
   body{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   
   
