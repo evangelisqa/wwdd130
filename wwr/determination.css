@@ -33,8 +33,9 @@ footer .social img{
   border-radius: 50%;
   width: 50px;
 }
-
-
+h2{
+  font-family: 'DM Serif Display', serif;
+}
 img.sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -47,7 +48,7 @@ img.sticky {
     text-align: left;
     margin-top: 5%;
     font-size: 23px;
-    
+    font-family:'Robot', ',sans-serif';
   }
   
   body{
