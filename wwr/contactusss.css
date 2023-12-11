@@ -1,0 +1,46 @@
+.logo {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 5%;
+  }
+  footer {
+    background-color:#cdb4db ;
+    color: black;
+    padding: 15px 10px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer .social img{
+    background-color:#cdb4db;
+    border-radius: 50%;
+    width: 50px;
+  }
+  header {
+    background-color:#cdb4db ;
+    display:grid;
+    grid-template-columns: 150px auto;
+    padding-left: 10px;
+  }
+  nav a{
+    padding:3%;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  nav {
+    display: flex;
+  }
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
