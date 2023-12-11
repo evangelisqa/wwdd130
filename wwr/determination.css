@@ -8,6 +8,7 @@ nav a{
   padding:3%;
   margin-top: 15px;
   font-size: 20px;
+  text-decoration: none;
 }
 nav {
   display: flex;
@@ -27,12 +28,21 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+ 
 }
 footer .social img{
   background-color:#cdb4db;
   border-radius: 50%;
   width: 50px;
 }
+footer a {
+  text-decoration: none;
+  font-size: 20px;
+}
+body p{
+  font-size: 20px;
+}
+
 h2{
   font-family: 'DM Serif Display', serif;
 }
