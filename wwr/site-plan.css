@@ -10,7 +10,8 @@ Fonts are separated by a | */
     --primary-color: #cdb4db;
     --secondary-color: #fef6f1;
     --accent1-color: #f5ebe0;
-    --accent2-color: #d4a373;
+    --accent2-color: #974a07;
+    --accent3-color: #fff;
 
     /* change the values below to your chosen font(s) */
     --heading-font: "IM Fell French Canon SC";
@@ -41,7 +42,7 @@ body {
     padding: 4em;
     font-size: 18px;
     text-align: center;
-    background-color: #fefee3;
+    background-color:#fef6f1 ;
 }
 
 img {
@@ -57,19 +58,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'DM Serif Display', serif;
-    color: darksalmon;
-}
-
-h2 {
+    font-family:'DM Serif Display', serif;
+    color: #974a07;
     text-align: center;
-    color: darksalmon;
-    font-family: 'DM Serif Display', serif;
 }
 
-h3 {
-    font-family: 'DM Serif Display', serif;
-}
 
 hr {
     height: 3px;
@@ -80,14 +73,14 @@ hr {
 header {
     padding: 1em;
     text-align: center;
-    color: #b2f7ef;
-    background-color: wheat;
+    color:#974a07 ;
+    background-color: #cdb4db;
     font-family: 'DM Serif Display', serif;
 }
 
 header>h1,
 header>h2 {
-    color: chocolate;
+    color: #fff;
     font-family: 'DM Serif Display', serif;
 }
 
@@ -127,9 +120,11 @@ p {
 }
 
 .accent2 {
-    background-color: #d4a373;
+    background-color: #974a07;
 }
-
+.accent3{
+    background-color: #fff;
+}
 p.colored {
     background-color: bisque;
     color: Black;

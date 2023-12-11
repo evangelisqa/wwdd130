@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display:ital@0;1&family=Fuggles&family=Josefin+Sans&family=Quicksand:wght@600&family=Roboto+Condensed:wght@100;200&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
 header {
   background-color:#cdb4db ;
   display:grid;
@@ -36,14 +38,14 @@ footer .social img{
 }
 footer a, p {
   text-decoration: none;
-  font-size: 19px;
+  font-size: 20px;
   margin-bottom: 4%;
   text-decoration: none;
   padding:0;
 }
 
 body p{
-  font-size: 19px;
+  font-size: 20px;
 }
 
 h2{
@@ -61,7 +63,7 @@ img.sticky {
   p{
     text-align: left;
     margin-top: 5%;
-    font-size: 23px;
+    font-size: 20px;
     font-family:'Robot', ',sans-serif';
   }
   

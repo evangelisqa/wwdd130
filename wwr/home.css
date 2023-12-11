@@ -1,6 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display:ital@0;1&family=Fuggles&family=Josefin+Sans&family=Quicksand:wght@600&family=Roboto+Condensed:wght@100;200&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Serif+Display:ital@0;1&family=Fuggles&family=Josefin+Sans&family=Quicksand:wght@600&family=Roboto+Condensed:wght@100;200&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
 
 header {
   background-color:#cdb4db ;
@@ -51,8 +49,8 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
+  background-color: #d4a373;
+  color: black;
   font-size: 25px;
   padding: 12px 24px;
   border: none;
@@ -63,7 +61,7 @@ img {
 }
 
 .container .btn:hover {
-  background-color: black;
+  background-color:#d4a373 ;
 }
 
 body {
@@ -74,16 +72,18 @@ body {
 h3{
   margin-top: 45%;
   font-family: 'DM Serif Display', serif;
+  font-size: 20px;
 }
 h4{
-  font-size: medium;
+  font-size: 20px;
   margin-top: 1%;
   font-family: 'DM Serif Display', serif;
 }
-main p{
+main 
+p {
   text-align: left;
   font-family: 'Roboto',sans-serif;
-  font-size:large;
+  font-size:19px;
 }
 
 footer {
