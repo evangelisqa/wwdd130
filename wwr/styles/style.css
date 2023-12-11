@@ -6,6 +6,8 @@ nav a {
     padding: 35px;
     background-color: darksalmon;
     color: black;
+    font-size: 20px;
+    text-decoration: none;
 }
 nav {
     display: flex;  
@@ -128,23 +130,25 @@ body {
 }
 
 footer {
-    background-color: darksalmon;
+   
     color: black;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 18px;
 }
 
 footer a {
-    background-color: darksalmon;
+    font-size: 18px;
     color: black;
 }
 
 footer a:hover {
     background-color: darksalmon;
     color: black;
+  
 }
 
 .icon {
@@ -172,17 +176,17 @@ footer a {
     text-align: center;
     color: darkblue;
     text-decoration: none;
-    background-color: darksalmon;
+   
 }
 
 footer p {
     font-size: 1.2em;
-    background-color: darksalmon;
+   
 }
 
 footer p a:hover {
     text-decoration: underline;
-    background-color: darksalmon;
+   
 }
 
 .join footer p {
