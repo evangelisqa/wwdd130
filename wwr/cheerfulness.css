@@ -3,6 +3,7 @@ header {
   display:grid;
   grid-template-columns: 150px auto;
   padding-left: 10px;
+  
 }
 p{
   font-family:'Roboto',sans-serif;
@@ -14,6 +15,7 @@ main .image{
 }
 nav a{
   padding:3%;
+  text-decoration: none;
 }
 nav {
   display: flex;
@@ -30,11 +32,15 @@ nav {
   footer {
     background-color:#cdb4db ;
     color: black;
-    padding: 15px 10px;
+    padding: 25px 10px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 1px;
+  }
+  footer a{
+    text-decoration: none;
   }
   footer .social img{
     background-color:#cdb4db;
@@ -44,9 +50,9 @@ nav {
 .content{
   margin-bottom: 100px;
 }
-p{
+body p{
   font-family:'Robot', ',sans-serif';
-  font-size: 23px;
+  font-size: 20px;
 }
 
 h3{
