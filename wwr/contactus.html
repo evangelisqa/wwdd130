@@ -60,14 +60,23 @@
             </div>
         </footer>
     </div>
-    <h2> Wireframe </h2>
-        <!-- Create an additional wireframe for your site. List it here below the Home page wireframe.-->
-        <h3> Home</h3>    
-          <h3> <img
-                 src="https://scontent.fyvr4-1.fna.fbcdn.net/v/t39.30808-6/398912944_10211386147446140_3613658371757607524_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QxIInvBad0EAX_vp4k-&_nc_ht=scontent.fyvr4-1.fna&oh=00_AfA9WpmJSWroC7XJGH0ACRCj-9dJ77W6gQV41EKwoJCLIg&oe=654CD7CB"
-                alt="Home page wireframe"/>
-                </h3>
-         <h3>[PAge 2]</h3>
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
  </body>
 </html>
    
