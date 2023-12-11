@@ -3,7 +3,7 @@ header {
   display:grid;
   grid-template-columns: 150px auto;
   padding-left: 10px;
-  
+  font-size: 20px;
 }
 p{
   font-family:'Roboto',sans-serif;
