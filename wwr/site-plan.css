@@ -38,13 +38,11 @@ Fonts are separated by a | */
 
 body {
     max-width: 1200px;
-    
+    margin: 0 auto;
     padding: 4em;
     font-size: 25px;
     text-align: center;
     background-color:#fef6f1 ;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 img {
