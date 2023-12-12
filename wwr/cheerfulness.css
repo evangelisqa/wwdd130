@@ -5,11 +5,11 @@ header {
   display:grid;
   grid-template-columns: 150px auto;
   padding-left: 10px;
-  font-size: 19px;
+  font-size: 25px;
 }
 p{
   font-family:'Roboto',sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 40px;
 }
 main .image{
@@ -54,7 +54,7 @@ nav {
 }
 body p{
   font-family:'Robot', ',sans-serif';
-  font-size: 20px;
+  font-size: 25px;
 }
 
 h3{
