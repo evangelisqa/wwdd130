@@ -89,7 +89,7 @@ body {
 /* Create four equal columns that floats next to each other */
 .column {
   float:left;
-  width: 30%;
+  width: 25%;
 }
 
 /* Clear floats after rows */ 
