@@ -4,9 +4,8 @@ header {
   background-color:#cdb4db ;
   display:grid;
   grid-template-columns: 150px auto;
-  padding-left: 10px;
+  padding-left: 20px;
   font-size: 25px;
- 
 }
 p{
   font-family:'Roboto',sans-serif;
@@ -66,9 +65,7 @@ h3{
 
 body {
   background-color: #F5EBE0;
-  padding: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding: 5px;
 }
 .main{
   max-width: 1000px;
