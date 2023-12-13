@@ -70,7 +70,10 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
-
+.main{
+  max-width: 1000px;
+  margin: auto;
+}
 
 
 .row {
