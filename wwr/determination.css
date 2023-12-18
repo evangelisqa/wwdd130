@@ -53,6 +53,8 @@ p {
 
 body p {
   font-size: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 h2 {
@@ -67,6 +69,7 @@ img.sticky {
   width: 300px;
   float: left;
   padding-top: 5%;
+  margin: 5%;
 }
 
 p {
@@ -77,8 +80,7 @@ p {
 }
 
 body {
-  margin-left: 5%;
-  margin-right: 5%;
+  
   background-color: #f5ebe0;
 }
 .center {
