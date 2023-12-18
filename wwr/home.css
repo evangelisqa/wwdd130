@@ -65,25 +65,29 @@ img {
 }
 
 body {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left:0;
+  margin-right: 0;
   background-color: #f5ebe0;
 }
 h3{
   margin-top: 45%;
   font-family: 'DM Serif Display', serif;
   font-size: 25px;
+  margin-left: 5%;
 }
 h4{
   font-size: 25px;
   margin-top: 1%;
   font-family: 'DM Serif Display', serif;
+  margin-left: 5%;
 }
 main 
 p {
   text-align: left;
   font-family: 'Roboto',sans-serif;
   font-size:25px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 footer {
