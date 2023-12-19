@@ -95,3 +95,15 @@ h5{
   font-size: 150%;
   margin-left: 5%;
 }
+.comments{
+  font-family: fantasy;
+  font-size: medium;
+  color: antiquewhite;
+}
+.name{
+  border-radius: 10%;
+  background-color: antiquewhite;
+}
+.comments #box{
+  background-color: aqua;
+}
