@@ -80,7 +80,8 @@ p {
 }
 
 body {
-  
+  margin-left: 0;
+  margin-right: 0;
   background-color: #f5ebe0;
 }
 .center {

@@ -66,6 +66,8 @@ h3{
 body {
   background-color: #F5EBE0;
   padding: 5px;
+  margin-left: 0;
+  margin-right: 0;
 }
 .main{
   max-width: 1000px;
